@@ -8,8 +8,8 @@
     tools:context=".SignUpActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="389dp"
+        android:layout_height="670dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="16dp"
@@ -160,21 +160,21 @@
             android:text="Зарегистрироваться"
             android:textAllCaps="false"
             android:textStyle="normal"
-            app:backgroundTint="#DB43DE"/>
+            app:backgroundTint="#DB43DE" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginTop="15dp"
             android:background="@drawable/button_background"
+            android:orientation="vertical"
             android:padding="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:background="@drawable/border">
+                android:background="@drawable/border"
+                android:orientation="vertical">
 
 
                 <Button

@@ -92,6 +92,10 @@
         "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\drawable\\ic_vectorclose.xml"
     },
     {
+        "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_movie.xml.flat",
+        "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\layout\\activity_movie.xml"
+    },
+    {
         "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\drawable_watch4.png.flat",
         "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\drawable\\watch4.png"
+    },
+    {
+        "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\drawable_mag1.png.flat",
+        "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\drawable\\mag1.png"
     },
     {
         "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle20.png.flat",

@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.DemoWSR"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.demowsr.MovieActivity"
+            android:exported="false" />
         <activity android:name="com.example.demowsr.SignInActivity" />
         <activity android:name="com.example.demowsr.SignUpActivity" />
         <activity android:name="com.example.demowsr.MainActivity" />

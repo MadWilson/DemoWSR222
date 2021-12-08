@@ -1,6 +1,6 @@
 package com.example.demowsr;
 
-import static androidx.core.os.LocaleListCompat.create;
+
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -24,6 +25,7 @@ public class SignInActivity extends AppCompatActivity {
     EditText edEmail1, edPassword1;
     SharedPreferences sPref;
     final String saveg = "key";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

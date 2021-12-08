@@ -1,5 +1,5 @@
-com/example/demowsr/MainActivity.java
- com.example.demowsr.MainActivity
+com/example/demowsr/RegisterService.java
+ com.example.demowsr.RegisterService
 com/example/demowsr/ApiClient.java
  com.example.demowsr.ApiClient
 com/example/demowsr/RegisterRequest.java
@@ -14,8 +14,6 @@ com/example/demowsr/LoginRequest.java
  com.example.demowsr.LoginRequest
 com/example/demowsr/BuildConfig.java
  com.example.demowsr.BuildConfig
-com/example/demowsr/RegisterService.java
- com.example.demowsr.RegisterService
 com/example/demowsr/SignInActivity.java
  com.example.demowsr.SignInActivity
  com.example.demowsr.SignInActivity$1
@@ -25,6 +23,10 @@ com/example/demowsr/SignInActivity.java
 com/example/demowsr/LaunchScreen.java
  com.example.demowsr.LaunchScreen
  com.example.demowsr.LaunchScreen$1
+com/example/demowsr/MovieActivity.java
+ com.example.demowsr.MovieActivity
+com/example/demowsr/MainActivity.java
+ com.example.demowsr.MainActivity
 com/example/demowsr/SignUpActivity.java
  com.example.demowsr.SignUpActivity
  com.example.demowsr.SignUpActivity$1

@@ -1,3 +1,5 @@
+com.example.demowsr:layout/activity_movie = 0x7f0b007d
+com.example.demowsr:id/imageView3 = 0x7f0801f1
 com.example.demowsr:styleable/Tooltip = 0x7f110088
 com.example.demowsr:style/Base.V7.Theme.AppCompat.Dialog = 0x7f100095
 com.example.demowsr:dimen/design_snackbar_min_width = 0x7f060084
@@ -2630,6 +2632,7 @@ com.example.demowsr:attr/state_collapsible = 0x7f030326
 com.example.demowsr:attr/colorSwitchThumbNormal = 0x7f0300e3
 com.example.demowsr:attr/startIconTintMode = 0x7f030323
 com.example.demowsr:styleable/ChipGroup = 0x7f11001e
+com.example.demowsr:drawable/mag1 = 0x7f0700b7
 com.example.demowsr:dimen/mtrl_calendar_day_vertical_padding = 0x7f0600f4
 com.example.demowsr:attr/drawableStartCompat = 0x7f030138
 com.example.demowsr:attr/startIconContentDescription = 0x7f030320

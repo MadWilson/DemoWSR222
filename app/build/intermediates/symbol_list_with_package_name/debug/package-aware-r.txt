@@ -1832,6 +1832,7 @@ drawable icon
 drawable image2
 drawable logo
 drawable logo1
+drawable mag1
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2108,6 +2109,7 @@ id image
 id imageAd
 id imageView
 id imageView2
+id imageView3
 id imageView5
 id immediateStop
 id included
@@ -2444,6 +2446,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_launch_screen
 layout activity_main
+layout activity_movie
 layout activity_sign_in
 layout activity_sign_up
 layout custom_dialog
