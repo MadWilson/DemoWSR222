@@ -16,12 +16,12 @@
         "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\drawable\\ic_arrow_back.xml"
     },
     {
-        "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_navigation.xml.flat",
-        "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\menu\\bottom_navigation.xml"
-    },
-    {
         "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\menu\\bottom_navigation.xml"
     },
     {
         "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -44,16 +44,16 @@
         "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\drawable\\logo1.png"
     },
     {
-        "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_launch_screen.xml.flat",
+        "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\layout\\activity_launch_screen.xml"
     },
     {
         "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_in.xml.flat",
         "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_launch_screen.xml.flat",
-        "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\layout\\activity_launch_screen.xml"
+        "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\it\\StudioProjects\\DemoWSR\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon.png.flat",

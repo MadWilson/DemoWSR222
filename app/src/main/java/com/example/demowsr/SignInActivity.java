@@ -20,7 +20,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class SignInActivity extends AppCompatActivity {
-    Button SignIn;
+    Button SignIn, SignUp1;
     EditText edEmail1, edPassword1;
     SharedPreferences sPref;
     final String saveg = "key";
@@ -31,11 +31,17 @@ public class SignInActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sign_in);
 
         SignIn = findViewById(R.id.btnSignIn);
-
+        SignUp1 =findViewById(R.id.btnSignUp1);
         edEmail1 =findViewById(R.id.edEmail1);
         edPassword1=findViewById(R.id.edPassword1);
 
-
+        SignUp1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
+                startActivity(intent);
+            }
+        });
 
         SignIn.setOnClickListener(new View.OnClickListener() {
             @Override

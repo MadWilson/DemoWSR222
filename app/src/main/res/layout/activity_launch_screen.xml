@@ -19,8 +19,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="160dp"
-            android:layout_height="205dp"
-            app:srcCompat="@drawable/logo" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo1" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
