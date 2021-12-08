@@ -31,11 +31,11 @@ public class ApiClient {
     return retrofit;
     }
     public static RegisterService getRegister(){
-        RegisterService registerService = get.Retrofit().create(RegisterService.class);
+        RegisterService registerService = getRetrofit().create(RegisterService.class);
         return registerService;
         }
-    public static LoginService getRegister(){
-        LoginService loginService = get.Retrofit().create(LoginService.class);
+    public static LoginService getLogin(){
+        LoginService loginService = getRetrofit().create(LoginService.class);
         return loginService;
     }
     }

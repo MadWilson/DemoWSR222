@@ -9,7 +9,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -21,10 +20,10 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class SignInActivity extends AppCompatActivity {
-    Button SignIn, SignUp1;
+    Button SignIn;
     EditText edEmail1, edPassword1;
-    //SharedPreferences sPref;
-    //final String saveg = "key";
+    SharedPreferences sPref;
+    final String saveg = "key";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,17 +31,11 @@ public class SignInActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sign_in);
 
         SignIn = findViewById(R.id.btnSignIn);
-        SignUp1 =findViewById(R.id.btnSignUp1);
+
         edEmail1 =findViewById(R.id.edEmail1);
         edPassword1=findViewById(R.id.edPassword1);
 
-        SignUp1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
-                startActivity(intent);
-            }
-        });
+
 
         SignIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,13 +56,13 @@ public class SignInActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 if (response.isSuccessful()){
-                  /*  LoginResponse loginResponse = response.body();
+                  LoginResponse loginResponse = response.body();
 
                     sPref = getSharedPreferences("pref", MODE_PRIVATE);
                     SharedPreferences.Editor ed= sPref.edit();
                     int message = loginResponse.getToken();
                     ed.putString(saveg, String.valueOf(message));
-                    ed.apply();*/
+                    ed.apply();
 
                     Intent intent = new Intent(SignInActivity.this, MainActivity.class);
                     startActivity(intent);
